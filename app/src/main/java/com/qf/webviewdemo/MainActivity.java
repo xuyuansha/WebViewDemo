@@ -30,6 +30,8 @@ public class MainActivity extends ActionBarActivity {
         });
         webView = new WebView(this);
         webView.getSettings().setJavaScriptEnabled(true);
+
+
         webView.loadUrl("http://www.51cto.com");
         setContentView(webView);
     }
